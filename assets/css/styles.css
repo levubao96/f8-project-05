@@ -286,3 +286,18 @@ svg:last-of-type {
     color: var(--secondary-color-mid-green);
     z-index: 3;
 }
+
+/* Client */
+.client {
+    padding: 120px 0 60px;
+}
+
+.client-wrap {
+    height: 201px;
+    padding: 0 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100.5px;
+    background: var(--secondary-color-light-green);
+}
