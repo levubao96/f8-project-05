@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+button,
+textarea,
+input {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+:root {
+
+}
+
+/* Common */
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    max-width: calc(100% - 60px);
+}
+
+.section-tag {
+    
+}
