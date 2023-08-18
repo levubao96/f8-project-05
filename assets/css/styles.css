@@ -263,6 +263,7 @@ svg:first-of-type {
     position: absolute;
     top: 35px;
     left: 255px;
+    color: var(--secondary-color-mid-green);
     z-index: 3;
 }
 
@@ -282,5 +283,6 @@ svg:last-of-type {
     position: absolute;
     bottom: 51px;
     right: 34px;
+    color: var(--secondary-color-mid-green);
     z-index: 3;
 }
