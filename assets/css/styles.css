@@ -82,7 +82,7 @@ a {
 }
 
 .section-heading {
-    margin-top: 20px;
+    margin-top: 12px;
     color: var(--primary-color-black);
     font-size: 4.2rem;
     font-weight: 600;
@@ -117,6 +117,13 @@ a {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.71;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 3);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 /* Header */
@@ -742,4 +749,96 @@ a {
     color: #152427;
     font-size: 2rem;
     font-weight: 600;
+}
+
+/* Blog */
+.blog {
+    padding: 60px 0;
+}
+
+.blog-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-title {
+    max-width: 580px;
+    margin-top: 10px;
+}
+
+.blog-desc {
+    max-width: 409px;
+}
+
+.blog-list {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post {
+    flex: 1;
+    max-width: 360px;
+    overflow: hidden;
+    border-radius: 40px;
+    transition: 300ms;
+}
+
+.blog-post:hover {
+    box-shadow: 0px 12px 74px 0px rgba(91, 91, 91, 0.25);
+    transform: translateY(-5px);
+}
+
+.blog-post:hover .blog-tag {
+    background: var(--primary-color-black-green);
+    color: var(--secondary-color-light-green);
+}
+
+.blog-post__thumb {
+    display: block;
+    width: 360px;
+    height: 317px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.blog-post__content {
+    padding: 26px 16px;
+    background: #fff;
+}
+
+.blog-tag {
+    width: 107px;
+    height: 26px;
+    text-align: center;
+    border-radius: 20px;
+    background: var(--secondary-color-light-green);
+    color: #000;
+    transition: 300ms;
+}
+
+.blog-tag span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+.blog-post__title {
+    margin-top: 13px;
+    min-height: 90px;
+    color: var(--primary-color-black-green);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+
+.blog-post__date {
+    margin-top: 9px;
+    padding-top: 16px;
+    border-top: 1px solid #c4c4c4;
+    text-align: right;
+    color: var(--text-color-black-gray);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
 }
