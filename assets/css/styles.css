@@ -564,7 +564,7 @@ a {
 }
 
 .process-step__name {
-    margin-left: 40px;
+    margin-left: 50px;
     min-width: 170px;
     display: flex;
     flex-direction: column;
@@ -581,6 +581,13 @@ a {
 
 .process-step__info {
     margin-left: 100px;
+}
+
+.process-step__desc {
+    color: var(--text-color-light-gray);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
 }
 
 .process-step__thumb {
