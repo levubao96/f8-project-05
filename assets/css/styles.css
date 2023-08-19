@@ -515,3 +515,80 @@ a {
     font-weight: 600;
     line-height: 1.24;
 }
+
+/* Process */
+.process {
+    padding: 60px 0;
+}
+
+.process-title {
+    width: 495px;
+}
+
+.process-list {
+    margin-top: 80px;
+}
+
+.process-step {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    background: #fff;
+    border-bottom: 1px solid var(--secondary-color-light-green);
+    transition: 400ms;
+}
+
+.process-step:hover {
+    background: var(--secondary-color-light-green);
+    border-radius: 33px;
+}
+
+.process-step:hover .process-step__link {
+    display: inline-block;
+}
+
+.process-step:hover .process-step__thumb {
+    visibility: visible;
+}
+
+.process-step:hover .process-step__info {
+    visibility: hidden;
+}
+
+.process-step__number {
+    min-width: 110px;
+    color: var(--primary-color-black-green);
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+.process-step__name {
+    margin-left: 40px;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    transition: 300ms;
+}
+
+.process-step__link {
+    display: none;
+    margin-top: 14px;
+    color: var(--text-color-black-gray);
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+.process-step__info {
+    margin-left: 100px;
+}
+
+.process-step__thumb {
+    position: absolute;
+    bottom: 0;
+    right: 92px;
+    width: 350px;
+    height: 345px;
+    object-fit: cover;
+    visibility: hidden;
+}
